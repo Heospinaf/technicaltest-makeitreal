@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 85% 85% ; 
+    background-attachment: fixed;
+     
+}
+#avatar{
+    position:fixed;
+    width:150px;
+    height:150px;
+    left:50%;
+    top:45%;
+    margin-left:-75px;
+    margin-top:-150px;
+    border-radius: 150px;
+    border: white 5px solid;
+}
+
+#texto{
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    padding: 150px;
+    
+}
